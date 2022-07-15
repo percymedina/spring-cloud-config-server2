@@ -2,7 +2,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8010/eureka/
-      
+
+---
 spring:
   profiles: pronoun
 words: Yo,Tu,El,Ella 
